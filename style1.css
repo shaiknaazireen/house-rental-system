@@ -1,0 +1,86 @@
+*{
+    margin: 0 0;
+    padding: 0 0;
+}
+body{
+    font-family: arial,sans-seriff;
+    line-height: 25px;
+}
+.wrapper{
+    width: 90%;
+    margin: 0 auto;
+    padding: 1% 1%;
+}
+.clearfix:after {
+   content: " ";
+   visibility: hidden;
+   display: block;
+   height: 0;
+   clear: both;
+}
+.header {
+    padding: 80px;
+    text-align: center;
+    background: rgb(135, 135, 135);
+   opacity: 100%;
+  color: rgb(8, 8, 8);
+  }
+  .header h1 {
+    font-size: 40px;
+  }
+
+/*CSS for MEnu*/
+.menu {
+    overflow: hidden;
+    background-color: rgb(220, 215, 215);
+}
+.menu  a{
+    float: left;
+  display: block;
+  color: rgb(6, 6, 6);
+  text-align: center;
+  padding: 6px 10px;
+  text-decoration: none;
+}
+.menu a.right {
+    float: right;
+} 
+.menu  a:hover{
+    background-color: #ddd;
+    color: black;
+}
+.main{
+    margin: 1% 0;
+}
+.main h3{
+    color: rgb(11, 11, 11);
+}
+.book-house img{
+    width: 50%;
+    float: left;
+    margin: 2% 2% 2% 0;
+}
+.book-house h3{
+    text-align: center;
+    margin-bottom: 2%;
+    text-decoration: underline;
+}
+.book-house p{
+    text-align: justify;
+    padding: 1%;
+    line-height: 30px;
+    color: #394d6d;
+}
+.footer{
+    background-color: grey;
+    color: white;
+}
+.footer p{
+    text-align: center;
+}
+.footer p a{
+    color: lightblue;
+}
+.footer p a:hover{
+    text-decoration: none;
+}
